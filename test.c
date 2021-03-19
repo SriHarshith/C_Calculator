@@ -35,15 +35,15 @@ void test_div(void)
 
 int main()
 {
-    // int number1 = 10;
-    // int number2 = 7;
-    // int add,diff,prod,quo;
-    // add = sum(number1,number2);
-    // diff = sub(number1,number2);
-    // prod = mul(number1,number2);
-    // quo = div(number1,number2);
+    int number1 = 10;
+    int number2 = 7;
+    int add,diff,prod,quo;
+    add = sum(number1,number2);
+    diff = sub(number1,number2);
+    prod = mul(number1,number2);
+    quo = div(number1,number2);
 
-    // printf("Sum is %d\n Differnce is %d\n Product is %d\n Quotient is %d\n",add,diff,prod,quo);
+    printf("Sum is %d\n Differnce is %d\n Product is %d\n Quotient is %d\n",add,diff,prod,quo);
 
     UNITY_BEGIN(); /* Initiate the Unity Test Framework */
 
